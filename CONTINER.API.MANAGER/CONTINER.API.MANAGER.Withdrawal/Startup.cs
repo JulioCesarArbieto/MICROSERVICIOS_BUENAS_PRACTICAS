@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CONTINER.API.MANAGER.Withdrawal.Repository;
+using CONTINER.API.MANAGER.Withdrawal.Repository.Data;
+using CONTINER.API.MANAGER.Withdrawal.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -25,6 +29,16 @@ namespace CONTINER.API.MANAGER.Withdrawal
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddDbContext<ContextDatabase>(
+             options =>
+             {
+                 options.UseNpgsql(Configuration["postgres:cn"]);
+
+             });
+
+            services.AddScoped<IServiceTransaction, ServiceTransaction>();
+            services.AddScoped<IRepositoryTransaction, RepositoryTransaction>();
+            services.AddScoped<IContextDatabase, ContextDatabase>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
