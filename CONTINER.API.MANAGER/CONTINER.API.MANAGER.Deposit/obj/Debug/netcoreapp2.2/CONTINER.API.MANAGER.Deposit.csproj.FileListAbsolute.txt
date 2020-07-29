@@ -1,0 +1,17 @@
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\bin\Debug\netcoreapp2.2\appsettings.json
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\bin\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.deps.json
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\bin\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.runtimeconfig.json
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\bin\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.runtimeconfig.dev.json
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\bin\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.dll
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\bin\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.pdb
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\obj\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.AssemblyInfoInputs.cache
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\obj\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.AssemblyInfo.cs
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\obj\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.csproj.CoreCompileInputs.cache
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\obj\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.RazorAssemblyInfo.cache
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\obj\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.RazorAssemblyInfo.cs
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\obj\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.RazorTargetAssemblyInfo.cache
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\obj\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.dll
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\obj\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.pdb
+D:\_WORK\NET\MicroserviciosCore\CONTINER.API.MANAGER\CONTINER.API.MANAGER.Deposit\obj\Debug\netcoreapp2.2\CONTINER.API.MANAGER.Deposit.genruntimeconfig.cache
