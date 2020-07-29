@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E0XilCtbaajuXLC1Fo1KZhJ/XosHNvHJHYbLl/kCu/q0cjC8OdnsjaDsfUx2Yf2O8kH/bL8RO71hhlawGC+Evw==",
+  "dgSpecHash": "7EE5/RwHyFNi42Ls4+7Q4OJSeu+gkWXfkMMjh1Ld4Ngnih/o7SwsHWpgGzCei9AV1/XKMq+RIKRfJErJG8OioQ==",
   "success": true,
-  "projectFilePath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\CONTINER.API.MANAGER.Security.csproj",
+  "projectFilePath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\CONTINER.API.MANAGER.Security.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SUPER\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\SUPER\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

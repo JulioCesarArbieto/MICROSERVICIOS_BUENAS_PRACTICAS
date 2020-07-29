@@ -1,17 +1,97 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj": {}
+    "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj": {}
   },
   "projects": {
-    "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj": {
+    "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj",
-        "projectName": "CONTINER.API.MANAGER.Withdrawal",
-        "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj",
+        "projectUniqueName": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
+        "projectName": "CONTINER.API.MANAGER.Cross.Jwt",
+        "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
         "packagesPath": "C:\\Users\\SUPER\\.nuget\\packages\\",
-        "outputPath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\obj\\",
+        "outputPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SUPER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400-preview-015178\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj",
+        "projectName": "CONTINER.API.MANAGER.Withdrawal",
+        "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj",
+        "packagesPath": "C:\\Users\\SUPER\\.nuget\\packages\\",
+        "outputPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -31,7 +111,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj": {
+                "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

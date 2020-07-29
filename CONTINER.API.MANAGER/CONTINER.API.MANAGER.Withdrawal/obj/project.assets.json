@@ -4438,6 +4438,23 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "CONTINER.API.MANAGER.Cross.Jwt/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "2.2.0",
+          "Microsoft.Extensions.Configuration": "2.2.0",
+          "Microsoft.Extensions.Configuration.Binder": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/CONTINER.API.MANAGER.Cross.Jwt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CONTINER.API.MANAGER.Cross.Jwt.dll": {}
+        }
       }
     }
   },
@@ -12084,10 +12101,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "CONTINER.API.MANAGER.Cross.Jwt/1.0.0": {
+      "type": "project",
+      "path": "../CONTINER.API.MANAGER.Cross.Jwt/CONTINER.API.MANAGER.Cross.Jwt.csproj",
+      "msbuildProject": "../CONTINER.API.MANAGER.Cross.Jwt/CONTINER.API.MANAGER.Cross.Jwt.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "CONTINER.API.MANAGER.Cross.Jwt >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -12101,11 +12124,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj",
+      "projectUniqueName": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj",
       "projectName": "CONTINER.API.MANAGER.Withdrawal",
-      "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj",
+      "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj",
       "packagesPath": "C:\\Users\\SUPER\\.nuget\\packages\\",
-      "outputPath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\obj\\",
+      "outputPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12125,7 +12148,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj": {
+              "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

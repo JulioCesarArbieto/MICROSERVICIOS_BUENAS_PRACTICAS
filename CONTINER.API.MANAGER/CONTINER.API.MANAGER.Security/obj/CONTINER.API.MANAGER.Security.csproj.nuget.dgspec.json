@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\CONTINER.API.MANAGER.Security.csproj": {}
+    "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\CONTINER.API.MANAGER.Security.csproj": {}
   },
   "projects": {
-    "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj": {
+    "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
+        "projectUniqueName": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
         "projectName": "CONTINER.API.MANAGER.Cross.Jwt",
-        "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
+        "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
         "packagesPath": "C:\\Users\\SUPER\\.nuget\\packages\\",
-        "outputPath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\obj\\",
+        "outputPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -84,14 +84,14 @@
         }
       }
     },
-    "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\CONTINER.API.MANAGER.Security.csproj": {
+    "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\CONTINER.API.MANAGER.Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\CONTINER.API.MANAGER.Security.csproj",
+        "projectUniqueName": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\CONTINER.API.MANAGER.Security.csproj",
         "projectName": "CONTINER.API.MANAGER.Security",
-        "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\CONTINER.API.MANAGER.Security.csproj",
+        "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\CONTINER.API.MANAGER.Security.csproj",
         "packagesPath": "C:\\Users\\SUPER\\.nuget\\packages\\",
-        "outputPath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\obj\\",
+        "outputPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Security\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -112,8 +112,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj": {
-                "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj"
+              "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj": {
+                "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj"
               }
             }
           }

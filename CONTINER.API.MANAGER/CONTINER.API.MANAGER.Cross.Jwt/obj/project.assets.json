@@ -6750,11 +6750,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
+      "projectUniqueName": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
       "projectName": "CONTINER.API.MANAGER.Cross.Jwt",
-      "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
+      "projectPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
       "packagesPath": "C:\\Users\\SUPER\\.nuget\\packages\\",
-      "outputPath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\obj\\",
+      "outputPath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

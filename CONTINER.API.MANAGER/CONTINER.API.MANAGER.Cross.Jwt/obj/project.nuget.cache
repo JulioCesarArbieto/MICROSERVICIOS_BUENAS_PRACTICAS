@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qd4PJRTi+03Ptc4B6FzTp8WRp6Zdl5TdqMWw37ZG2pzlVblWygh1hz+2TtapvZ2ZT43a6TsO0iY5ofA6fK1HuA==",
+  "dgSpecHash": "BHuVUH/WoueLsv7WUb1grPM+M2C8U+/M7FiSOwtnHUhsNA7+USmhgmbJUJ5FnctEuxYVTMwgz3gs7KLr8/k0hQ==",
   "success": true,
-  "projectFilePath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
+  "projectFilePath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Cross.Jwt\\CONTINER.API.MANAGER.Cross.Jwt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SUPER\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\SUPER\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

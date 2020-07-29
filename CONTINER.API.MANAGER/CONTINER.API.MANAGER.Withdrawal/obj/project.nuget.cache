@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yuHPtBi7Fe7lZ3n6WC2dFWJcD43dIKhO0es/NCisxYQG1g5DQm8C68Y7KS/8nBUM7xC4s7PqFMgGQr7YUBm03g==",
+  "dgSpecHash": "yoqFZDwJLPl73bDW3qBr+anXWRHbo3FCL7Pe5/MgvtmVXIwZAaSJfXKUDtkz1vzRMUXWBu/P1oL14iaUXAEzFg==",
   "success": true,
-  "projectFilePath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj",
+  "projectFilePath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\SUPER\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

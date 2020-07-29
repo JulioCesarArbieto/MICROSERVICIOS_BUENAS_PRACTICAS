@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+ZBU73H2HcB2vPosB3uDn6KUhqmNBsl5luUyfbJE3/o8N1SilA0KariWyBiLDUunvBxTufI4dXPunFhI8DwU9Q==",
+  "dgSpecHash": "Kthm9sjXQ1ge5xvDw7aZBAm1qdnTNv4cAHCIDCcXqapoteWUmAuOMdnuKXMzPuYkhD3yaj/KBNOAEL3Tps3GtQ==",
   "success": true,
-  "projectFilePath": "D:\\_WORK\\NET\\MicroserviciosCore\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Account\\CONTINER.API.MANAGER.Account.csproj",
+  "projectFilePath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Account\\CONTINER.API.MANAGER.Account.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\SUPER\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
