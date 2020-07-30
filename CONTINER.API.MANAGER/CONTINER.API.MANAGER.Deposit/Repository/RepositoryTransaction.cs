@@ -1,9 +1,5 @@
 ﻿using CONTINER.API.MANAGER.Deposit.Model;
 using CONTINER.API.MANAGER.Deposit.Repository.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CONTINER.API.MANAGER.Deposit.Repository
 {

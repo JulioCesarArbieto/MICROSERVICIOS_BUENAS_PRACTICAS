@@ -1,18 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CONTINER.API.MANAGER.Withdrawal.Repository;
-using CONTINER.API.MANAGER.Withdrawal.Repository.Data;
-using CONTINER.API.MANAGER.Withdrawal.Service;
+﻿using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using CONTINER.API.MANAGER.Cross.Jwt.Jwt;
+using CONTINER.API.MANAGER.Cross.Proxy.Proxy;
+using CONTINER.API.MANAGER.Cross.RabbitMQ.RabbitMQ;
+using CONTINER.API.MANAGER.Withdrawal.RabbitMQ.CommandHandlers;
+using CONTINER.API.MANAGER.Withdrawal.RabbitMQ.Commands;
+using CONTINER.API.MANAGER.Withdrawal.Repository;
+using CONTINER.API.MANAGER.Withdrawal.Repository.Data;
+using CONTINER.API.MANAGER.Withdrawal.Service;
 
 namespace CONTINER.API.MANAGER.Withdrawal
 {
@@ -37,8 +37,19 @@ namespace CONTINER.API.MANAGER.Withdrawal
              });
 
             services.AddScoped<IServiceTransaction, ServiceTransaction>();
+            services.AddScoped<IServiceAccount, ServiceAccount>();
             services.AddScoped<IRepositoryTransaction, RepositoryTransaction>();
             services.AddScoped<IContextDatabase, ContextDatabase>();
+
+            /*Start RabbitMQ*/
+            services.AddMediatR(typeof(Startup));
+            services.AddRabbitMQ();
+            services.AddTransient<IRequestHandler<WithdrawalCreateCommand, bool>, WithdrawalCommandHandler>();
+            services.AddTransient<IRequestHandler<MailCreateCommand, bool>, MailCommandHandler>();
+            /*End RabbitMQ*/
+
+            services.Configure<JwtOptions>(Configuration.GetSection("jwt"));
+            services.AddProxyHttp();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

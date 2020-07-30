@@ -128,6 +128,7 @@ namespace CONTINER.API.MANAGER.Cross.RabbitMQ.RabbitMQ
             }
             catch(Exception ex)
             {
+                Console.WriteLine(ex.Message);
             }
         }
 

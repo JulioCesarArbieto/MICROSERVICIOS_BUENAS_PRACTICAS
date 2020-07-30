@@ -1,4 +1,5 @@
 ﻿using CONTINER.API.MANAGER.Cross.Jwt.Jwt;
+using CONTINER.API.MANAGER.Cross.Proxy.Proxy;
 using CONTINER.API.MANAGER.Cross.RabbitMQ.RabbitMQ;
 using CONTINER.API.MANAGER.Deposit.RabbitMQ.CommandHandlers;
 using CONTINER.API.MANAGER.Deposit.RabbitMQ.Commands;
@@ -48,7 +49,7 @@ namespace CONTINER.API.MANAGER.Deposit
             /*End RabbitMQ*/
 
             services.Configure<JwtOptions>(Configuration.GetSection("jwt"));
-            //services.AddProxyHttp();
+            services.AddProxyHttp();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

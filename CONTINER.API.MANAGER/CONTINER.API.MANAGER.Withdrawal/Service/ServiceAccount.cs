@@ -1,8 +1,8 @@
 ﻿using CONTINER.API.MANAGER.Cross.Jwt;
 using CONTINER.API.MANAGER.Cross.Jwt.Jwt;
 using CONTINER.API.MANAGER.Cross.Proxy.Proxy;
-using CONTINER.API.MANAGER.Deposit.DTO;
-using CONTINER.API.MANAGER.Deposit.Model;
+using CONTINER.API.MANAGER.Withdrawal.DTO;
+using CONTINER.API.MANAGER.Withdrawal.Model;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Polly;
@@ -10,7 +10,7 @@ using Polly.CircuitBreaker;
 using System;
 using System.Threading.Tasks;
 
-namespace CONTINER.API.MANAGER.Deposit.Service
+namespace CONTINER.API.MANAGER.Withdrawal.Service
 {
     public class ServiceAccount : IServiceAccount
     {
@@ -32,18 +32,18 @@ namespace CONTINER.API.MANAGER.Deposit.Service
 
         }
 
-        public async Task<bool> DepositAccount(AccountRequest request)
+        public async Task<bool> WithdrawalAccount(AccountRequest request)
         {
-            string uri = configuration["proxy:urlAccountDeposit"];
+            string uri = configuration["proxy:urlAccountWithdrawal"];
             string token = "Bearer " + JwtToken.Create(jwtOption);
             var response = await httpClient.PostAsync(uri, request, token);
             response.EnsureSuccessStatusCode();
             return true;
         }
 
-        public bool DepositReverse(Transaction request)
+        public bool WithdrawalReverse(Transaction request)
         {
-            serviceTransaction.DepositReverse(request);
+            serviceTransaction.WithdrawalReverse(request);
             return true;
         }
 
@@ -77,7 +77,7 @@ namespace CONTINER.API.MANAGER.Deposit.Service
                             Amount = request.Amount,
                             IdAccount = request.AccountId
                         };
-                        response = DepositAccount(account).Result;
+                        response = WithdrawalAccount(account).Result;
                         Console.WriteLine("Solicitud realizada con éxito");
 
                     });
@@ -90,11 +90,12 @@ namespace CONTINER.API.MANAGER.Deposit.Service
                         AccountId = request.AccountId,
                         Amount = request.Amount,
                         CreationDate = DateTime.Now.ToShortDateString(),
-                        Type = "Deposit R"
+                        Type = "With R"
                     };
-                    response = DepositReverse(transaction);
+                    response = WithdrawalReverse(transaction);
                 }
             });
+
 
             return response;
         }

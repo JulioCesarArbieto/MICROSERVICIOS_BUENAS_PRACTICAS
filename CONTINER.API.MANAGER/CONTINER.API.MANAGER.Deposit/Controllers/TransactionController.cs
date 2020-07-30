@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using CONTINER.API.MANAGER.Cross.RabbitMQ.RabbitMQ.Bus;
 using CONTINER.API.MANAGER.Deposit.DTO;
+using CONTINER.API.MANAGER.Deposit.RabbitMQ.Commands;
 using CONTINER.API.MANAGER.Deposit.Service;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CONTINER.API.MANAGER.Deposit.Controllers
@@ -15,11 +12,13 @@ namespace CONTINER.API.MANAGER.Deposit.Controllers
     public class TransactionController : ControllerBase
     {
         private readonly IServiceTransaction _services;
+        private readonly IServiceAccount _servicesAccount;
         private readonly IEventBus _bus;
-
-        public TransactionController(IServiceTransaction services)
+        public TransactionController(IServiceTransaction services, IEventBus bus, IServiceAccount servicesAccount)
         {
             _services = services;
+            _bus = bus;
+            _servicesAccount = servicesAccount;
         }
 
         [HttpPost("Deposit")]
@@ -32,7 +31,24 @@ namespace CONTINER.API.MANAGER.Deposit.Controllers
                 CreationDate = DateTime.Now.ToShortDateString(),
                 Type = "Deposit"
             };
-            _services.Deposit(transaction);
+            transaction = _services.Deposit(transaction);                   
+            bool isProccess = _servicesAccount.Execute(transaction);
+            if(isProccess)
+            {
+                _bus.SendCommand(new DepositCreateCommand(
+                        idTransaction: transaction.Id,
+                        amount: transaction.Amount,
+                        type: transaction.Type,
+                        creationDate: transaction.CreationDate,
+                        accountId: transaction.AccountId
+                ));
+
+                _bus.SendCommand(new MailCreateCommand(
+                            sendDate: transaction.CreationDate,
+                            accountId: transaction.AccountId
+                    ));
+            }
+
             return Ok();
         }
     }

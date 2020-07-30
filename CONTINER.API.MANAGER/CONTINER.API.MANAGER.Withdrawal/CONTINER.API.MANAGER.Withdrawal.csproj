@@ -9,16 +9,13 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.2.0" />
+    <PackageReference Include="Polly" Version="7.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CONTINER.API.MANAGER.Cross.Jwt\CONTINER.API.MANAGER.Cross.Jwt.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="RabbitMQ\CommandHandlers\" />
-    <Folder Include="RabbitMQ\Commands\" />
-    <Folder Include="RabbitMQ\Events\" />
+    <ProjectReference Include="..\CONTINER.API.MANAGER.Cross.Proxy\CONTINER.API.MANAGER.Cross.Proxy.csproj" />
+    <ProjectReference Include="..\CONTINER.API.MANAGER.Cross.RabbitMQ\CONTINER.API.MANAGER.Cross.RabbitMQ.csproj" />
   </ItemGroup>
 
 </Project>

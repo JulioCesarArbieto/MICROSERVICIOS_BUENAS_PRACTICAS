@@ -1,6 +1,4 @@
-﻿
-
-using CONTINER.API.MANAGER.Withdrawal.Model;
+﻿using CONTINER.API.MANAGER.Withdrawal.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace CONTINER.API.MANAGER.Withdrawal.Repository.Data

@@ -16,5 +16,10 @@ namespace CONTINER.API.MANAGER.Withdrawal.Service
         {
             return _repositoryTransaction.Withdrawal(transaction);
         }
+
+        public Transaction WithdrawalReverse(Transaction transaction)
+        {
+            return _repositoryTransaction.WithdrawalReverse(transaction);
+        }
     }
 }

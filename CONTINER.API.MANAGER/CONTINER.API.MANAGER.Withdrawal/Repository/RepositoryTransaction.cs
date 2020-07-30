@@ -1,9 +1,5 @@
 ﻿using CONTINER.API.MANAGER.Withdrawal.Model;
 using CONTINER.API.MANAGER.Withdrawal.Repository.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CONTINER.API.MANAGER.Withdrawal.Repository
 {
@@ -21,6 +17,13 @@ namespace CONTINER.API.MANAGER.Withdrawal.Repository
             _context.SaveChanges();
             return transaction;
 
+        }
+
+        public Transaction WithdrawalReverse(Transaction transaction)
+        {
+            _context.Transaction.Add(transaction);
+            _context.SaveChanges();
+            return transaction;
         }
     }
 }
