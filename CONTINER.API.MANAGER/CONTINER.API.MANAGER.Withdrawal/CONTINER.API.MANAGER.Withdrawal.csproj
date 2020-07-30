@@ -15,4 +15,10 @@
     <ProjectReference Include="..\CONTINER.API.MANAGER.Cross.Jwt\CONTINER.API.MANAGER.Cross.Jwt.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="RabbitMQ\CommandHandlers\" />
+    <Folder Include="RabbitMQ\Commands\" />
+    <Folder Include="RabbitMQ\Events\" />
+  </ItemGroup>
+
 </Project>

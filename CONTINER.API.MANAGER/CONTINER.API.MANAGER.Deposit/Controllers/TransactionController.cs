@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CONTINER.API.MANAGER.Cross.RabbitMQ.RabbitMQ.Bus;
 using CONTINER.API.MANAGER.Deposit.DTO;
 using CONTINER.API.MANAGER.Deposit.Service;
 using Microsoft.AspNetCore.Http;
@@ -14,6 +15,8 @@ namespace CONTINER.API.MANAGER.Deposit.Controllers
     public class TransactionController : ControllerBase
     {
         private readonly IServiceTransaction _services;
+        private readonly IEventBus _bus;
+
         public TransactionController(IServiceTransaction services)
         {
             _services = services;

@@ -21,5 +21,12 @@ namespace CONTINER.API.MANAGER.Deposit.Repository
             _context.SaveChanges();
             return transaction;
         }
+
+        public Transaction DepositReverse(Transaction transaction)
+        {
+            _context.Transaction.AddAsync(transaction);
+            _context.SaveChanges();
+            return transaction;
+        }
     }
 }

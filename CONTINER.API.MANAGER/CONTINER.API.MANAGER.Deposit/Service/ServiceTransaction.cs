@@ -15,5 +15,10 @@ namespace CONTINER.API.MANAGER.Deposit.Service
         {
             return _repositoryTransaction.Deposit(transaction);
         }
+
+        public Transaction DepositReverse(Transaction transaction)
+        {
+            return _repositoryTransaction.DepositReverse(transaction);
+        }
     }
 }
