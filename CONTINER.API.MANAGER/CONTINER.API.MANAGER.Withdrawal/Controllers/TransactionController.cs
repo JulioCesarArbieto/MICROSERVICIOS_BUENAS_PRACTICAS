@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using CONTINER.API.MANAGER.Withdrawal.DTO;
 using CONTINER.API.MANAGER.Withdrawal.Service;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CONTINER.API.MANAGER.Withdrawal.Controllers
