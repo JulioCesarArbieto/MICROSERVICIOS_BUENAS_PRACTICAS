@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace CONTINER.API.MANAGER.History
+namespace CONTINER.API.MANAGER.Notification
 {
     public class Program
     {

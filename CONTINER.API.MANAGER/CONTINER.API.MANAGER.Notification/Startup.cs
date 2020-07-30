@@ -1,12 +1,14 @@
-﻿using CONTINER.API.MANAGER.History.Repository;
-using CONTINER.API.MANAGER.History.Service;
+﻿using CONTINER.API.MANAGER.Notification.Repository;
+using CONTINER.API.MANAGER.Notification.Repository.Data;
+using CONTINER.API.MANAGER.Notification.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CONTINER.API.MANAGER.History
+namespace CONTINER.API.MANAGER.Notification
 {
     public class Startup
     {
@@ -21,8 +23,15 @@ namespace CONTINER.API.MANAGER.History
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddScoped<IServiceHistory, ServiceHistory>();
-            services.AddScoped<IRepositoryHistory, RepositoryHistory>();
+            services.AddDbContext<ContextDatabase>(
+            options =>
+            {
+                options.UseMySQL(Configuration["mariadb:cn"]);
+            });
+
+            services.AddScoped<IServiceMail, ServiceMail>();
+            services.AddScoped<IRepositoryMail, RepositoryMail>();
+            services.AddScoped<IContextDatabase, ContextDatabase>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
