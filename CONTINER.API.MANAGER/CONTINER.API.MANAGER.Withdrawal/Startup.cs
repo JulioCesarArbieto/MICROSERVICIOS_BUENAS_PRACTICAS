@@ -42,10 +42,10 @@ namespace CONTINER.API.MANAGER.Withdrawal
             services.AddScoped<IContextDatabase, ContextDatabase>();
 
             /*Start RabbitMQ*/
-            //services.AddMediatR(typeof(Startup));
-            //services.AddRabbitMQ();
-            //services.AddTransient<IRequestHandler<WithdrawalCreateCommand, bool>, WithdrawalCommandHandler>();
-            //services.AddTransient<IRequestHandler<MailCreateCommand, bool>, MailCommandHandler>();
+            services.AddMediatR(typeof(Startup));
+            services.AddRabbitMQ();
+            services.AddTransient<IRequestHandler<WithdrawalCreateCommand, bool>, WithdrawalCommandHandler>();
+            services.AddTransient<IRequestHandler<MailCreateCommand, bool>, MailCommandHandler>();
             /*End RabbitMQ*/
 
             services.Configure<JwtOptions>(Configuration.GetSection("jwt"));

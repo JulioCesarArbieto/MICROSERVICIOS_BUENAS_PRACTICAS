@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CONTINER.API.MANAGER.Notification.Service;
-using Microsoft.AspNetCore.Http;
+﻿using CONTINER.API.MANAGER.Notification.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CONTINER.API.MANAGER.Notification.Controllers

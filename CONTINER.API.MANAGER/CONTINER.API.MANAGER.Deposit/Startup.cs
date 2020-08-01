@@ -48,8 +48,8 @@ namespace CONTINER.API.MANAGER.Deposit
             services.AddTransient<IRequestHandler<MailCreateCommand, bool>, MailCommandHandler>();
             /*End RabbitMQ*/
 
-            services.Configure<JwtOptions>(Configuration.GetSection("jwt"));
-            services.AddProxyHttp();
+            //services.Configure<JwtOptions>(Configuration.GetSection("jwt"));
+            //services.AddProxyHttp();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

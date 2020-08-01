@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dC76pQenjPnk7sTNbzkzkdNvLDchMCZIJMXSK9u+BtIcDC1hx+yvOM/YuH52M4m0kMWsn7pOhyyfvqwNpkVljA==",
+  "dgSpecHash": "y1B5EOxg4o673XnbgbSVQYY7VYXWt0KydaEVG2bI2AE3xP+jRgBnbj9KhFW8OvPeITUA0s9XfCwWxtRa0zTnGg==",
   "success": true,
   "projectFilePath": "D:\\_WORK\\NET\\MicroserviciosCore\\MICROSERVICIOS_BUENAS_PRACTICAS\\CONTINER.API.MANAGER\\CONTINER.API.MANAGER.Withdrawal\\CONTINER.API.MANAGER.Withdrawal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SUPER\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
+    "C:\\Users\\SUPER\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\7.0.0\\mediatr.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\SUPER\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Users\\SUPER\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
