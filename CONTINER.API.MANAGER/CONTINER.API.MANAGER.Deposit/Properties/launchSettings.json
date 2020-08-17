@@ -12,7 +12,7 @@
     "CONTINER.API.MANAGER.Deposit": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/transaction",
+      "launchUrl": "swagger", /*"api/transaction",*/
       "applicationUrl": "http://localhost:5004",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

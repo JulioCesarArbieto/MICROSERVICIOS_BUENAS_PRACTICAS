@@ -20,11 +20,11 @@ namespace CONTINER.API.MANAGER.Security.Controllers
             _jwtOption = jwtOption.Value;
         }
 
-        //[HttpGet]
-        //public IActionResult Get()
-        //{
-        //    return Ok(_services.GetAll());
-        //}
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(_services.GetAll());
+        }
 
         [HttpPost]
         public IActionResult Post([FromBody] AuthRequest request)

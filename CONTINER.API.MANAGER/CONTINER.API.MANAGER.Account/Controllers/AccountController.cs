@@ -6,6 +6,7 @@ using System.Linq;
 
 namespace CONTINER.API.MANAGER.Account.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class AccountController : ControllerBase
@@ -16,6 +17,10 @@ namespace CONTINER.API.MANAGER.Account.Controllers
             _services = services;
         }
 
+        /// <summary>
+        /// This method get all Acounts registre
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get()
         {
