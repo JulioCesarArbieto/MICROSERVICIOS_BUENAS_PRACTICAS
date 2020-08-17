@@ -12,7 +12,7 @@
     "CONTINER.API.MANAGER": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/auth",
+      "launchUrl": "swagger",/*"api/auth",*/
       "applicationUrl": "http://localhost:5001",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

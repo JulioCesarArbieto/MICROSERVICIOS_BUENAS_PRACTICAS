@@ -1,8 +1,8 @@
 ﻿{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:50070",
       "sslPort": 0
@@ -12,7 +12,7 @@
     "CONTINER.API.MANAGER.Notification": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/notification",
+      "launchUrl": "swagger",/*"api/notification",*/
       "applicationUrl": "http://localhost:5007",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
