@@ -1,12 +1,7 @@
 ﻿using CONTINER.API.MANAGER.Cross.RabbitMQ.RabbitMQ.Bus;
-using CONTINER.API.MANAGER.Deposit.DTO;
 using CONTINER.API.MANAGER.Deposit.Service;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CONTINER.MANAGER.TestMicroservices.Deposit
 {
